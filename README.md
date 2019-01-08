@@ -8,7 +8,7 @@
 		}
 		}
         dependencies {
-	        implementation 'com.github.github-liuxiang:Smartadapter:1.0'
+	        implementation 'com.github.github-liuxiang:SmartadapterD:v3.0'
 		}    
 		
 		

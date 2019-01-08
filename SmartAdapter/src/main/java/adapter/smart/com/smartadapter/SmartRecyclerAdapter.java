@@ -57,10 +57,6 @@ public abstract class SmartRecyclerAdapter<T> extends RecyclerView.Adapter<Smart
 
     @Override
     public void onBindViewHolder(final SmartRecyclerHolder holder, int position) {
-
-        if (listener != null) {
-            holder.itemView.setBackgroundResource(R.mipmap.ic_launcher);//设置背景
-        }
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
